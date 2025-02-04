@@ -1,0 +1,521 @@
+[04Feb2025 19:31:53.852] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[04Feb2025 19:31:53.856] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[04Feb2025 19:31:54.215] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[04Feb2025 19:31:54.263] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/GuarraLand-2.1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[04Feb2025 19:31:54.525] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/GuarraLand-2.1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[04Feb2025 19:31:54.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/GuarraLand-2.1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[04Feb2025 19:31:54.527] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/GuarraLand-2.1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[04Feb2025 19:31:54.528] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/GuarraLand-2.1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[04Feb2025 19:31:54.657] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Feb2025 19:31:54.658] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[04Feb2025 19:31:55.831] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Feb2025 19:31:55.935] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[04Feb2025 19:31:55.937] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[04Feb2025 19:31:55.938] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Feb2025 19:31:55.948] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2025 19:31:55.957] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2025 19:31:56.019] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
+[04Feb2025 19:31:56.020] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Feb2025 19:31:56.032] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Feb2025 19:31:56.051] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[04Feb2025 19:31:56.110] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 95 options available, 0 override(s) found
+[04Feb2025 19:31:56.139] [main/WARN] [mixin/]: Reference map 'brrp-forge-forge-refmap.json' for brrp-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2025 19:31:56.151] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[04Feb2025 19:31:56.161] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2025 19:31:56.639] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[04Feb2025 19:31:56.640] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[04Feb2025 19:31:56.640] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[04Feb2025 19:31:56.641] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[04Feb2025 19:31:56.642] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[04Feb2025 19:31:56.642] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[04Feb2025 19:31:56.642] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[04Feb2025 19:31:56.643] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[04Feb2025 19:31:56.696] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[04Feb2025 19:31:56.812] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/DataFixerOptimizationOption
+[04Feb2025 19:31:56.828] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[04Feb2025 19:31:56.851] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[04Feb2025 19:31:57.144] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (4.732 s after launch)
+[04Feb2025 19:31:57.168] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[04Feb2025 19:31:57.172] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[04Feb2025 19:31:57.197] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Feb2025 19:31:57.197] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Feb2025 19:31:57.241] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Feb2025 19:31:57.242] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Feb2025 19:31:57.807] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[04Feb2025 19:31:57.808] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[04Feb2025 19:31:57.809] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[04Feb2025 19:31:57.825] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[04Feb2025 19:31:57.857] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[04Feb2025 19:31:57.890] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[04Feb2025 19:31:57.892] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[04Feb2025 19:31:57.895] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[04Feb2025 19:31:57.896] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[04Feb2025 19:31:57.896] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[04Feb2025 19:31:57.897] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[04Feb2025 19:31:57.897] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[04Feb2025 19:31:57.898] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[04Feb2025 19:31:57.898] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[04Feb2025 19:31:57.900] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[04Feb2025 19:31:57.900] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[04Feb2025 19:31:57.901] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[04Feb2025 19:31:57.901] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[04Feb2025 19:31:57.902] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[04Feb2025 19:31:57.902] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[04Feb2025 19:31:57.903] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[04Feb2025 19:31:57.903] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[04Feb2025 19:31:57.904] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[04Feb2025 19:31:57.904] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[04Feb2025 19:31:57.905] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[04Feb2025 19:31:57.905] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[04Feb2025 19:31:57.906] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[04Feb2025 19:31:57.939] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 793 milliseconds
+[04Feb2025 19:31:57.991] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[04Feb2025 19:31:58.044] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[04Feb2025 19:31:58.118] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[04Feb2025 19:31:58.121] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[04Feb2025 19:31:58.194] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[04Feb2025 19:31:58.264] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[04Feb2025 19:31:58.283] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[04Feb2025 19:31:58.299] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[04Feb2025 19:31:58.301] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[04Feb2025 19:31:58.336] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[04Feb2025 19:31:58.482] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[04Feb2025 19:31:58.516] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[04Feb2025 19:31:58.618] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[04Feb2025 19:31:58.619] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[04Feb2025 19:31:58.642] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[04Feb2025 19:31:58.671] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[04Feb2025 19:31:58.767] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[04Feb2025 19:31:58.885] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[04Feb2025 19:31:59.081] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[04Feb2025 19:31:59.098] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[04Feb2025 19:31:59.102] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[04Feb2025 19:31:59.102] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[04Feb2025 19:31:59.109] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[04Feb2025 19:31:59.119] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[04Feb2025 19:31:59.129] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[04Feb2025 19:31:59.138] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[04Feb2025 19:31:59.146] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[04Feb2025 19:31:59.151] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[04Feb2025 19:31:59.154] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[04Feb2025 19:31:59.165] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[04Feb2025 19:31:59.167] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[04Feb2025 19:31:59.198] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[04Feb2025 19:31:59.209] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[04Feb2025 19:31:59.210] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[04Feb2025 19:31:59.211] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[04Feb2025 19:31:59.227] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[04Feb2025 19:31:59.228] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[04Feb2025 19:31:59.234] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[04Feb2025 19:31:59.258] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/OreVeinifier$VeinType
+[04Feb2025 19:31:59.263] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[04Feb2025 19:31:59.265] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[04Feb2025 19:31:59.269] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[04Feb2025 19:31:59.270] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[04Feb2025 19:31:59.271] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[04Feb2025 19:31:59.546] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[04Feb2025 19:31:59.549] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[04Feb2025 19:31:59.561] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[04Feb2025 19:31:59.564] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[04Feb2025 19:31:59.565] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[04Feb2025 19:31:59.567] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[04Feb2025 19:31:59.568] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[04Feb2025 19:31:59.573] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[04Feb2025 19:31:59.587] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ChatTypeDecoration$Parameter
+[04Feb2025 19:31:59.599] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[04Feb2025 19:31:59.600] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[04Feb2025 19:31:59.619] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[04Feb2025 19:31:59.642] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[04Feb2025 19:31:59.771] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[04Feb2025 19:31:59.893] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/spectrelib/config/SpectreConfig$Type
+[04Feb2025 19:31:59.895] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[04Feb2025 19:31:59.903] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[04Feb2025 19:31:59.904] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[04Feb2025 19:31:59.909] [modloading-worker-0/INFO] [betterfortresses/]: Creating directory for additional Better Nether Fortresses configuration at /workspaces/GuarraLand-2.1/servidor_minecraft/config/betterfortresses/forge-1_19
+[04Feb2025 19:31:59.913] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/spectrelib/config/SpectreConfig$InstanceType
+[04Feb2025 19:31:59.920] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting tschipp/carryon/config/PropertyType
+[04Feb2025 19:31:59.924] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/progwml6/ironchest/common/item/IronChestsUpgradeType
+[04Feb2025 19:31:59.924] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/progwml6/ironchest/common/block/IronChestsTypes
+[04Feb2025 19:31:59.942] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[04Feb2025 19:31:59.942] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[04Feb2025 19:31:59.962] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting link/infra/indium/renderer/aocalc/AoConfig
+[04Feb2025 19:31:59.973] [modloading-worker-0/INFO] [io.github.steveplays28.noisium.Noisium/]: Loading Noisium.
+[04Feb2025 19:31:59.974] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/bettercombat/logic/TargetHelper$Relation
+[04Feb2025 19:31:59.985] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/api/cooldown/CooldownType
+[04Feb2025 19:31:59.989] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/fabricmc/fabric/api/renderer/v1/material/BlendMode
+[04Feb2025 19:31:59.993] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+[04Feb2025 19:31:59.996] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FogDensity
+[04Feb2025 19:31:59.998] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/GraveModel
+[04Feb2025 19:31:59.997] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: reforgium, class link.infra.indium.Indium
+java.lang.ExceptionInInitializerError: null
+	at link.infra.indium.renderer.RenderMaterialImpl.<clinit>(RenderMaterialImpl.java:33) ~[reforgium-1.0.12a.jar%23198!/:?]
+	at link.infra.indium.renderer.ReforgiumRenderer.materialFinder(ReforgiumRenderer.java:49) ~[reforgium-1.0.12a.jar%23198!/:?]
+	at link.infra.indium.renderer.ReforgiumRenderer.<clinit>(ReforgiumRenderer.java:32) ~[reforgium-1.0.12a.jar%23198!/:?]
+	at link.infra.indium.Indium.<init>(Indium.java:119) ~[reforgium-1.0.12a.jar%23198!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23219!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23218!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.fabricmc.fabric.api.renderer.v1.material.BlendMode.<clinit>(BlendMode.java:33) ~[reforgium-1.0.12a.jar%23198!/:?]
+	... 18 more
+[04Feb2025 19:32:00.003] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/BlockGraveMarble$MarbleType
+[04Feb2025 19:32:00.004] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/bettercombat/Platform$Type
+[04Feb2025 19:32:00.004] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$GraveSkinRule
+[04Feb2025 19:32:00.006] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$AutoEquipRule
+[04Feb2025 19:32:00.008] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$MarkerType
+[04Feb2025 19:32:00.009] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FontRule
+[04Feb2025 19:32:00.021] [modloading-worker-0/WARN] [com.cupboard.Cupboard/]: Config cupboard.json not found, recreating default
+[04Feb2025 19:32:00.022] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting foundationgames/enhancedblockentities/util/EBEUtil
+[04Feb2025 19:32:00.023] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[04Feb2025 19:32:00.023] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting foundationgames/enhancedblockentities/EBESetup
+[04Feb2025 19:32:00.033] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/talhanation/smallships/world/entity/ship/Ship$BiomeModifierType
+[04Feb2025 19:32:00.034] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: enhancedblockentities, class foundationgames.enhancedblockentities.EnhancedBlockEntities
+java.lang.NoClassDefFoundError: net/minecraft/client/renderer/item/ItemPropertyFunction
+	at foundationgames.enhancedblockentities.EnhancedBlockEntities.<init>(EnhancedBlockEntities.java:41) ~[EnhancedBlockEntities-Reforged-1.19.2-0.8.0.jar%23177!/:1.19.2-0.8.0]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23219!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23218!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.item.ItemPropertyFunction
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 15 more
+[04Feb2025 19:32:00.044] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Enchantments$MagicSiphonOnPlayerRule
+[04Feb2025 19:32:00.048] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/DynamicTrees$SwampOakWaterState
+[04Feb2025 19:32:00.049] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/DynamicTrees$AxeDamage
+[04Feb2025 19:32:00.054] [modloading-worker-0/INFO] [bettermineshafts/]: Creating directory for advanced Better Mineshafts configs at /workspaces/GuarraLand-2.1/servidor_minecraft/config/bettermineshafts/forge-1_19
+[04Feb2025 19:32:00.059] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[04Feb2025 19:32:00.063] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/GuarraLand-2.1/servidor_minecraft/config/ironfurnaces-client.toml is not correct. Correcting
+[04Feb2025 19:32:00.064] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.065] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.065] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_0 was corrected from null to its default, 80000. 
+[04Feb2025 19:32:00.066] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_1 was corrected from null to its default, 200000. 
+[04Feb2025 19:32:00.065] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/GuarraLand-2.1/servidor_minecraft/config/graveyard-1.19.x-common.toml is not correct. Correcting
+[04Feb2025 19:32:00.066] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_2 was corrected from null to its default, 1000000. 
+[04Feb2025 19:32:00.067] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.068] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.069] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.tier was corrected from null to its default, 0. 
+[04Feb2025 19:32:00.069] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.hauntedHouse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.069] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.hauntedHouse.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.070] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.largeGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.070] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.largeGraveyard.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.070] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mediumGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.071] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.speed was corrected from null to its default, 160. 
+[04Feb2025 19:32:00.071] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mediumGraveyard.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.071] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.generation was corrected from null to its default, 20. 
+[04Feb2025 19:32:00.072] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.072] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.tier was corrected from null to its default, 0. 
+[04Feb2025 19:32:00.072] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.memorialTree was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.073] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.speed was corrected from null to its default, 180. 
+[04Feb2025 19:32:00.073] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.memorialTree.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.073] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.generation was corrected from null to its default, 20. 
+[04Feb2025 19:32:00.074] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mushroomGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.074] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.074] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mushroomGrave.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.074] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.tier was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.075] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.speed was corrected from null to its default, 120. 
+[04Feb2025 19:32:00.075] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.generation was corrected from null to its default, 80. 
+[04Feb2025 19:32:00.075] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.075] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.tier was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.074] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.075] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.speed was corrected from null to its default, 80. 
+[04Feb2025 19:32:00.076] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.generation was corrected from null to its default, 120. 
+[04Feb2025 19:32:00.076] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGrave.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGraveyard.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGrave.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallSavannaGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallSavannaGrave.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGraveyard.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallMountainGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallMountainGraveyard.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.crypt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.crypt.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.altar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.altar.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.giantMushroom was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.giantMushroom.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.lichPrison was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.lichPrison.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.ruins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.ruins.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.076] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.deadTree was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.tier was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.079] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.deadTree.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.079] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.speed was corrected from null to its default, 40. 
+[04Feb2025 19:32:00.079] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.generation was corrected from null to its default, 160. 
+[04Feb2025 19:32:00.079] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.079] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.tier was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.079] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.speed was corrected from null to its default, 140. 
+[04Feb2025 19:32:00.079] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.generation was corrected from null to its default, 50. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.tier was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.speed was corrected from null to its default, 40. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.generation was corrected from null to its default, 180. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.tier was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.speed was corrected from null to its default, 20. 
+[04Feb2025 19:32:00.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.generation was corrected from null to its default, 250. 
+[04Feb2025 19:32:00.081] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.081] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.tier was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.081] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.speed was corrected from null to its default, 5. 
+[04Feb2025 19:32:00.081] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.generation was corrected from null to its default, 400. 
+[04Feb2025 19:32:00.081] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.million_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.million_furnace.tier was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipe_cache was corrected from null to its default, 10. 
+[04Feb2025 19:32:00.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.speed was corrected from null to its default, 20. 
+[04Feb2025 19:32:00.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.power was corrected from null to its default, 9. 
+[04Feb2025 19:32:00.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.rainbow_generation was corrected from null to its default, 50000. 
+[04Feb2025 19:32:00.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.generation was corrected from null to its default, 1000. 
+[04Feb2025 19:32:00.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipeMaxXPLevel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.enabled was corrected from null to its default, true. 
+[04Feb2025 19:32:00.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipeMaxXPLevel.level was corrected from null to its default, 100. 
+[04Feb2025 19:32:00.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.weight was corrected from null to its default, 25. 
+[04Feb2025 19:32:00.084] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.minGroupSizeGhoul was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.084] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.maxGroupSizeGhoul was corrected from null to its default, 5. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.canBurnInSunlight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.canBeWithered was corrected from null to its default, true. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.enabled was corrected from null to its default, true. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.weight was corrected from null to its default, 25. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.minGroupSizeRevenant was corrected from null to its default, 5. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.maxGroupSizeRevenant was corrected from null to its default, 8. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.canBurnInSunlight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.canBeWithered was corrected from null to its default, true. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.enabled was corrected from null to its default, true. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.weight was corrected from null to its default, 10. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.minGroupSizeReaper was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.maxGroupSizeGhoul was corrected from null to its default, 3. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.canBurnInSunlight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.canBeWithered was corrected from null to its default, true. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.enabled was corrected from null to its default, true. 
+[04Feb2025 19:32:00.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.weight was corrected from null to its default, 10. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.minGroupSizeNightmare was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.maxGroupSizeNightmare was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.canBurnInSunlight was corrected from null to its default, false. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.canBeWithered was corrected from null to its default, false. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.enabled was corrected from null to its default, true. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.weight was corrected from null to its default, 25. 
+[04Feb2025 19:32:00.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.minGroupSizeSkeletonCreeper was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.maxGroupSizeSkeletonCreeper was corrected from null to its default, 4. 
+[04Feb2025 19:32:00.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.canBurnInSunlight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.canBeWithered was corrected from null to its default, true. 
+[04Feb2025 19:32:00.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.089] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte.enabled was corrected from null to its default, false. 
+[04Feb2025 19:32:00.089] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte.canBurnInSunlight was corrected from null to its default, false. 
+[04Feb2025 19:32:00.089] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte.canBeWithered was corrected from null to its default, true. 
+[04Feb2025 19:32:00.089] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.089] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith.enabled was corrected from null to its default, false. 
+[04Feb2025 19:32:00.089] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.090] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith.canBurnInSunlight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.090] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.090] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.speed was corrected from null to its default, 5. 
+[04Feb2025 19:32:00.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.mult was corrected from null to its default, 16. 
+[04Feb2025 19:32:00.090] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith.canBeWithered was corrected from null to its default, false. 
+[04Feb2025 19:32:00.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.generation was corrected from null to its default, 1000. 
+[04Feb2025 19:32:00.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.tier was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager.enabled was corrected from null to its default, false. 
+[04Feb2025 19:32:00.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager.canBurnInSunlight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.speed was corrected from null to its default, 3. 
+[04Feb2025 19:32:00.093] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.mult was corrected from null to its default, 32. 
+[04Feb2025 19:32:00.093] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.generation was corrected from null to its default, 1500. 
+[04Feb2025 19:32:00.093] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.tier was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.094] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.094] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.speed was corrected from null to its default, 1. 
+[04Feb2025 19:32:00.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager.canBeWithered was corrected from null to its default, true. 
+[04Feb2025 19:32:00.094] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.095] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.mult was corrected from null to its default, 64. 
+[04Feb2025 19:32:00.095] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.generation was corrected from null to its default, 2000. 
+[04Feb2025 19:32:00.096] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.tier was corrected from null to its default, 2. 
+[04Feb2025 19:32:00.095] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator.enabled was corrected from null to its default, false. 
+[04Feb2025 19:32:00.096] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator.canBurnInSunlight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.096] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator.canBeWithered was corrected from null to its default, true. 
+[04Feb2025 19:32:00.102] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.102] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.102] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.102] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.healthInCastingPhase was corrected from null to its default, 400.0. 
+[04Feb2025 19:32:00.103] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.healthInHuntingPhase was corrected from null to its default, 200.0. 
+[04Feb2025 19:32:00.103] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.damageCastingPhase was corrected from null to its default, 30.0. 
+[04Feb2025 19:32:00.103] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.damageHuntingPhaseAddition was corrected from null to its default, 40.0. 
+[04Feb2025 19:32:00.102] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.104] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei was corrected from null to its default, true. 
+[04Feb2025 19:32:00.104] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei_catalysts was corrected from null to its default, true. 
+[04Feb2025 19:32:00.104] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei_click_area was corrected from null to its default, true. 
+[04Feb2025 19:32:00.104] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.armor was corrected from null to its default, 18.0. 
+[04Feb2025 19:32:00.105] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.armorToughness was corrected from null to its default, 14.0. 
+[04Feb2025 19:32:00.105] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.speedInHuntPhase was corrected from null to its default, 0.15. 
+[04Feb2025 19:32:00.106] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationHuntingPhase was corrected from null to its default, 800. 
+[04Feb2025 19:32:00.106] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.106] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationFallingCorpseSpell was corrected from null to its default, 400. 
+[04Feb2025 19:32:00.107] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.107] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationHealingSpell was corrected from null to its default, 700. 
+[04Feb2025 19:32:00.108] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationLevitationSpell was corrected from null to its default, 150. 
+[04Feb2025 19:32:00.108] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.rainbow was corrected from null to its default, true. 
+[04Feb2025 19:32:00.108] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loading config: /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-client.toml
+[04Feb2025 19:32:00.109] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.maxAmountSkullsInShootSkullSpell was corrected from null to its default, 5. 
+[04Feb2025 19:32:00.109] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.errors was corrected from null to its default, false. 
+[04Feb2025 19:32:00.109] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.maxSummonedMobs was corrected from null to its default, 30. 
+[04Feb2025 19:32:00.109] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.web was corrected from null to its default, false. 
+[04Feb2025 19:32:00.109] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.maxGroupSizeSummonedMobs was corrected from null to its default, 5. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.ghoulSpawnTimerInFight was corrected from null to its default, 6000. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isBloodCollectableEntity was corrected from null to its default, [entity.minecraft.villager]. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isBossSummonableItem was corrected from null to its default, [item.minecraft.debug_stick]. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.summoningNeedsStaffFragments was corrected from null to its default, true. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isMultiphaseFight was corrected from null to its default, true. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isInvulnerableDuringSpells was corrected from null to its default, true. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.cooldownCorpseSpell was corrected from null to its default, 400. 
+[04Feb2025 19:32:00.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.cooldownTeleportPlayerAndHeal was corrected from null to its default, 600. 
+[04Feb2025 19:32:00.111] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.cooldownLevitationSpell was corrected from null to its default, 400. 
+[04Feb2025 19:32:00.111] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.playerTeleportYOffset was corrected from null to its default, -15. 
+[04Feb2025 19:32:00.109] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Built config: /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-client.toml
+[04Feb2025 19:32:00.109] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.lightupdates was corrected from null to its default, false. 
+[04Feb2025 19:32:00.111] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loaded config: /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-client.toml
+[04Feb2025 19:32:00.111] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-client.toml is not correct. Correcting
+[04Feb2025 19:32:00.112] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.113] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client Settings.cameraShakesAllowed was corrected from null to its default, true. 
+[04Feb2025 19:32:00.113] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client Settings.arachnophobeMode was corrected from null to its default, false. 
+[04Feb2025 19:32:00.114] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.115] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.115] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates.check_updates was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.115] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loading config: /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-common.toml
+[04Feb2025 19:32:00.115] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.116] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/UpdaterHandler$PoolType
+[04Feb2025 19:32:00.115] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Built config: /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-common.toml
+[04Feb2025 19:32:00.115] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates.check_updates.updates was corrected from null to its default, true. 
+[04Feb2025 19:32:00.117] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loaded config: /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-common.toml
+[04Feb2025 19:32:00.118] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/GuarraLand-2.1/servidor_minecraft/config/illageandspillage-common.toml is not correct. Correcting
+[04Feb2025 19:32:00.116] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.118] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.118] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.mobSpawnAttempts was corrected from null to its default, 40. 
+[04Feb2025 19:32:00.119] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.igniter_raidcount was corrected from null to its default, [0, 0, 1, 2, 0, 2, 1, 4]. 
+[04Feb2025 19:32:00.121] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.ticksUntilSpawnHorde was corrected from null to its default, 24000. 
+[04Feb2025 19:32:00.121] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.twittollager_raidcount was corrected from null to its default, [0, 0, 0, 0, 1, 0, 2, 1]. 
+[04Feb2025 19:32:00.122] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.additionalRandomizedTicks was corrected from null to its default, 1200. 
+[04Feb2025 19:32:00.123] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[04Feb2025 19:32:00.122] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.crocofang_raidcount was corrected from null to its default, [0, 0, 1, 0, 1, 2, 1, 3]. 
+[04Feb2025 19:32:00.124] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.absorber_raidcount was corrected from null to its default, [0, 0, 0, 0, 1, 0, 0, 2]. 
+[04Feb2025 19:32:00.124] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.125] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config.particle was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.125] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.preserver_raidcount was corrected from null to its default, [0, 0, 0, 1, 2, 0, 3, 4]. 
+[04Feb2025 19:32:00.125] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config.particle.generate was corrected from null to its default, true. 
+[04Feb2025 19:32:00.126] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.magispeller_raidcount was corrected from null to its default, [0, 0, 0, 0, 0, 0, 0, 0]. 
+[04Feb2025 19:32:00.126] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.magispeller_onlyOneAllowed was corrected from null to its default, true. 
+[04Feb2025 19:32:00.127] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config.particle.frequency was corrected from null to its default, 50. 
+[04Feb2025 19:32:00.128] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.magispeller_forcefield was corrected from null to its default, true. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.spiritcaller_raidcount was corrected from null to its default, [0, 0, 0, 0, 0, 0, 0, 0]. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.urn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.spiritcaller_onlyOneAllowed was corrected from null to its default, true. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.urn.urnHasDoubleInventory was corrected from null to its default, true. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.spiritcaller_forcefield was corrected from null to its default, true. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.bossMusic was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.freakager_raidcount was corrected from null to its default, [0, 0, 0, 0, 0, 0, 0, 0]. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.freakager_onlyOneAllowed was corrected from null to its default, true. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.freakager_forcefield was corrected from null to its default, true. 
+[04Feb2025 19:32:00.129] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.bossMusic.enableBossMusic was corrected from null to its default, true. 
+[04Feb2025 19:32:00.130] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.spawner was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.130] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Boss Randomizer settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.130] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.spawner.disableWitherSkeletonSpawner was corrected from null to its default, false. 
+[04Feb2025 19:32:00.130] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Boss Randomizer settings.bossrandomizer_raidcount was corrected from null to its default, [0, 0, 0, 0, 1, 0, 0, 1]. 
+[04Feb2025 19:32:00.131] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Boss Randomizer settings.bossrandomizer_bosstypes was corrected from null to its default, [illageandspillage:spiritcaller, illageandspillage:freakager]. 
+[04Feb2025 19:32:00.131] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[04Feb2025 19:32:00.131] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Boss Randomizer settings.bossrandomizer_finalbosstypes was corrected from null to its default, [illageandspillage:magispeller]. 
+[04Feb2025 19:32:00.133] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Boss Randomizer settings.bossrandomizer_onlyOneAllowed was corrected from null to its default, true. 
+[04Feb2025 19:32:00.134] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Boss Randomizer settings.bossrandomizer_seasonalBosses was corrected from null to its default, true. 
+[04Feb2025 19:32:00.134] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Boss Randomizer settings.bossrandomizer_broadcastBossSpawn was corrected from null to its default, true. 
+[04Feb2025 19:32:00.135] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Spiritcaller settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.135] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Spiritcaller settings.spiritcaller_stealableMobs was corrected from null to its default, [minecraft:villager, minecraft:wandering_trader, minecraft:pig, minecraft:cow, minecraft:sheep, minecraft:chicken, minecraft:cat, minecraft:zombie, minecraft:husk, minecraft:skeleton, minecraft:stray, minecraft:creeper, minecraft:spider, minecraft:enderman]. 
+[04Feb2025 19:32:00.136] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Spiritcaller settings.spiritcaller_wontAttack was corrected from null to its default, [minecraft:villager, minecraft:wandering_trader]. 
+[04Feb2025 19:32:00.137] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Feb2025 19:32:00.137] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.igniter_canBurnBlocks was corrected from null to its default, false. 
+[04Feb2025 19:32:00.138] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.crocofang_rideableMobs was corrected from null to its default, [minecraft:pillager, illageandspillage:igniter, minecraft:vindicator]. 
+[04Feb2025 19:32:00.139] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.devastator_cantBreak was corrected from null to its default, [minecraft:obsidian, minecraft:bedrock, minecraft:command_block, minecraft:chain_command_block, minecraft:repeating_command_block, minecraft:barrier]. 
+[04Feb2025 19:32:00.141] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.devastator_ghostBlocks was corrected from null to its default, false. 
+[04Feb2025 19:32:00.141] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.ghostblock_repairTime was corrected from null to its default, 6000. 
+[04Feb2025 19:32:00.142] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.absorber_damageMode was corrected from null to its default, false. 
+[04Feb2025 19:32:00.142] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.preserver_cannotProtect was corrected from null to its default, [illageandspillage:magispeller, illageandspillage:spiritcaller, illageandspillage:freakager]. 
+[04Feb2025 19:32:00.143] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.magispeller_balloonAllowed was corrected from null to its default, true. 
+[04Feb2025 19:32:00.143] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.spellboundbook_rechargeTime was corrected from null to its default, 60. 
+[04Feb2025 19:32:00.143] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.spellboundbook_effectTime was corrected from null to its default, 40. 
+[04Feb2025 19:32:00.144] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.magispeller_distractEnemies was corrected from null to its default, true. 
+[04Feb2025 19:32:00.144] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Raid settings.Misc settings.ragno_attackTimes was corrected from null to its default, 4. 
+[04Feb2025 19:32:00.153] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/block/leaves/LeavesProperties$AgeingConfiguration
+[04Feb2025 19:32:00.177] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[04Feb2025 19:32:00.180] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[04Feb2025 19:32:00.186] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[04Feb2025 19:32:00.195] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/block/GrowableBlock$MatureAction
+[04Feb2025 19:32:00.318] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 2 errors found
+[04Feb2025 19:32:00.382] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID a7237789-28f2-438a-a323-3ace66c8d2b7
+[04Feb2025 19:32:00.383] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-02-04_19.32.00-fml.txt
+[04Feb2025 19:32:00.392] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID bd9c0c8a-919e-4206-89bb-594af6aa905d
+[04Feb2025 19:32:00.393] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Reforgium (reforgium) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null,
+	EnhancedBlockEntities (enhancedblockentities) has failed to load correctly
+§7java.lang.NoClassDefFoundError: net/minecraft/client/renderer/item/ItemPropertyFunction
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:243) ~[fmlcore-1.19.2-43.4.2.jar%23218!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$24(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23218!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23218!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23218!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23218!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23222!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23217!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
